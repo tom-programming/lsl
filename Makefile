@@ -88,8 +88,8 @@ endif
 
 	@# Install modules
 	install -m 0755 build/mod/$(LBL_ADD)      $(MODDIR)/$(LBL_ADD)
-	install -m 0755 build/mod/$(LBL_EDIT)     $(MODDIR)/$(LBL_EDIT)
-	install -m 0755 build/mod/$(LBL_REN)      $(MODDIR)/$(LBL_REN)
+	#install -m 0755 build/mod/$(LBL_EDIT)     $(MODDIR)/$(LBL_EDIT)
+	#install -m 0755 build/mod/$(LBL_REN)      $(MODDIR)/$(LBL_REN)
 	install -m 0755 build/mod/$(LBL_NAME)     $(MODDIR)/$(LBL_NAME)
 	install -m 0755 build/mod/$(LBL_REGEX)    $(MODDIR)/$(LBL_REGEX)
 	install -m 0755 build/mod/$(LBL_PATH)     $(MODDIR)/$(LBL_PATH)
